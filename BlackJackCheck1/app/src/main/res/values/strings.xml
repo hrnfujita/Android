@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">BlackJackCheck1</string>
+    <string name="app_name">BlackJackApp</string>
+    <string name="input_num1">数値を入力してください"  "</string>
+    <string name="input_num2"> 回目</string>
+    <string name="input_num3">HIT!!</string>
+    <string name="input_num4">PIG!!</string>
+    <string name="input_num5">BlackJack!!</string>
+    <string name="input_num6">STAND!!</string>
 </resources>
