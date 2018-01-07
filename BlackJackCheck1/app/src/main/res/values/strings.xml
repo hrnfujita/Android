@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">BlackJackApp</string>
-    <string name="input_num1">数値を入力してください"  "</string>
-    <string name="input_num2"> 回目</string>
-    <string name="input_num3">HIT!!</string>
-    <string name="input_num4">PIG!!</string>
-    <string name="input_num5">BlackJack!!</string>
-    <string name="input_num6">STAND!!</string>
+    <string name="commandNumber">数値を入力してください\n"  "</string>
+    <string name="commandCount">回目</string>
+    <string name="commandNow">"  "現在</string>
+    <string name="decision1">HIT!!</string>
+    <string name="decision2">STAND!!</string>
+    <string name="decision3">BlackJack!!</string>
+    <string name="decision4">PIG!!</string>
 </resources>
