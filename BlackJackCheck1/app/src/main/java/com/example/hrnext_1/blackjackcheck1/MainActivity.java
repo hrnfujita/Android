@@ -41,17 +41,17 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 //入力値の取得
-                String str = editText.getText().toString();
+                String inputStr = editText.getText().toString();
                 editText.setText("");
-                if (!(str == null || str.length() == 0)) {
+                if (inputStr != null && inputStr.length() > 0) {
                     ++mInputCount;
                     //１回目の処理
                     if (mNumTotal == 0) {
-                        mNumTotal = Integer.parseInt(str);
+                        mNumTotal = Integer.parseInt(inputStr);
                         mWordCommand = getString(R.string.commandNumber) + mInputCount + getString(R.string.commandCount) + getString(R.string.commandNow) + mNumTotal;
                     } else {
                         //２回目以降の処理
-                        mNumAdd = Integer.parseInt(str);
+                        mNumAdd = Integer.parseInt(inputStr);
                         mNumSum = mNumTotal + mNumAdd;
                         mNumTotal = mNumSum;
                         //HIT時の処理
